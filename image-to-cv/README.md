@@ -1,5 +1,5 @@
 # image-to-cv
-An idea I originally came up with when a photographer friend reached out to me several years ago and wanted to do some sort of musical/photography collaboration and performance. When my friend approached me, I had recently become obsessed with creating generative music, so I opted to use their photography to be the modulation ource for several electronic instruments. 
+An idea I originally came up with when a photographer friend reached out to me several years ago and wanted to do some sort of musical/photography collaboration and performance. When my friend approached me, I had recently become obsessed with creating generative music, so I opted to use their photography to be the modulation source for several electronic instruments. 
 
 The original proof of concept used VCV Rack to analyze an image and convert each pixel of the image to a CV value (or multiple CV values), which then eventually controlled different voices and modulations. Unfortunately, my friend experienced several life changing events near the completion of the POC and the collobaration was abandoned. I archived the VCV Rack implemntation of the idea.
 
