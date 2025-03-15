@@ -9,7 +9,7 @@ One night, during a bout of insomnia, I was thinking about my friend and the pro
 
 The following Sunday, I began breadboarding the idea using the Nano, several DACs (MCP4725) and an SD card reader. 
 
-At this point, the core of the POC is there, though there is quite a ways to go. As of today, there is no way to alter settings beyond the code on the Nano. My original sketch of the module includes multiple ways in which to interact with the settings and how an image affects the CV values. And most of all, I have no idea how I'm going to bundle everything together into a size that's compatible with the Eurorack format. But what kind of hobby project would it be if I ever finished it :)
+At this point, the core of the POC is there, though there is quite a ways to go. As of today, there is no way to alter settings beyond the code on the Nano. My original sketch of the module includes multiple ways in which to interact with the settings and how an image affects the CV values. The Nano is not powerful enough to analyze an image for pixel values, so currently it simply reads a text/csv file that contains the RGB values for each pixel on a separate line. And most of all, I have no idea how I'm going to bundle everything together into a size that's compatible with the Eurorack format. But what kind of hobby project would it be if I ever finished it :)
 
 Sketches of the original idea are in Notes/ folder; I figure it's best to have a backup just in case I need to reference my original vision.
 
