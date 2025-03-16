@@ -26,4 +26,5 @@ But if you happen to stumble across this repository and find it somewhat interes
 ## Feature Ideas
 
 * Could write back out to the SD card the RGB values that were transformed by the module's settings. For example, if the **red** channel was attenuated to 3 o'clock and the **green** channel attenuation was set at noon and the **blue** channel was set at 9PM, perform the attentuation calculation on the original RGB values and write them back out to the SD card in a subfolder labeled something like  `[YYYY-MM-DD]-[original-input-filename]-performance.csv`. Could provide a way for the user to automatically open up the latest performance.csv (or oldest, whatever really) when the module reaches the end of the original file (rather than simply looping back again from the beginning of the original file). Realistically, over time, if one begins with an image and _only_ uses the most recent performance file, the attenuation will cause the most recent performance file to be filled up with lines of either ```255,255,255``` or ```0,0,0```, but that's to be expected.
+* Explore adding CV in for the attenuverters
 
