@@ -18,6 +18,11 @@ TODO (in no particular order):
         * normal/x to y (left to right, top to bottom)
         * vertical/y to x (top to bottom, left to right)
         * random (mangle the order of each pixel value/row
+    Glide toggle for each color? So that changes between each CV value isn't so abrupt?        
+    Idea: Some way of iterating through all of a rows color (red, green or blue) at a different rate than the other colors. If a color "finishes" all of the values in a row/column
+          then loop back to the beginning of the current row/column for that color. Perhaps trig in could *only* advance the position in the row/column for a specific color?
+          
+              
         
 
 """
